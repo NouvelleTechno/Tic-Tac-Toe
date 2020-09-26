@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+
+#jeu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    margin: auto;
+}
+
+.case{
+    border: 1px solid black;
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+}
